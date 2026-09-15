@@ -116,6 +116,34 @@ g:/Roblox Games/erase it/
 
 ## 5. 📋 What Is Left / Future Roadmap
 
+### 5.1 📖 Bharat Discovery Index & Flaunting System (The "Brainrot" Collection & Virality Engine)
+> **Purpose**: Supercharge retention, curiosity, and social bragging rights ("Brainrot collection style") by letting players permanently catalog every discovered Indian item without introducing inventory clutter.
+
+- [ ] **Data Persistence for Discoveries (`DataService.luau`)**:
+  - Track `DiscoveredItems: { [string]: boolean }` and `TotalDiscovered: number`.
+  - First-time discovery bonus: +₹100 bonus coins and a special celebratory stamp animation: `✨ NEW DISCOVERY UNLOCKED! ✨`.
+
+- [ ] **📖 Discovery Album UI (`UIController.luau`)**:
+  - Add **`📖 INDEX`** button in the HUD.
+  - Interactive grid organized by categories (*Street Food*, *Desi Vehicles*, *Everyday Nostalgia*, *Legends*).
+  - Unlocked items show full colorful card art, emoji, Hindi title, and cultural trivia.
+  - Undiscovered items appear as sleek dark silhouettes with `?` and rarity indicator (e.g. `[👑 2% LEGENDARY]`).
+  - Progress header: e.g. `11 / 14 Discovered (78%)`.
+
+- [ ] **👑 Overhead Titles & Server Flaunt System**:
+  - Dynamic billboard title tags above player characters on the rooftop:
+    - 🫖 5 Items: `[Chai Lover]`
+    - 🛺 10 Items: `[Desi Explorer]`
+    - 👑 100% Album Completed: `[👑 BHARAT LEGEND]` (Glowing golden animated title).
+  - Server-wide chat fanfare when a player discovers a Rare or Legendary reveal:  
+    `👑 [PlayerName] just uncovered the ROYAL GOLDEN AUTO! (2% Chance!)`
+
+- [ ] **🎁 Album Milestone Rewards**:
+  - Completing sets grants permanent bonuses (e.g. +10% ₹ Multiplier, Golden Eraser Particle Trail).
+
+---
+
+### 5.2 🛠️ Additional Polish & Monetization Tasks
 - [ ] **Monetization Gamepasses / DevProducts Setup**:
   - Configure live Gamepass IDs in `Config.luau` for *Super Eraser (2.5× radius + Golden Trail)*, *2× ₹ Coins*, and *Instant Reveal Coconut Bomb*.
 - [ ] **Custom Audio Asset IDs**:
