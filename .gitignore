@@ -1,0 +1,5 @@
+# Roblox / Rojo
+*.rbxl.lock
+.rojo/
+*.tmp
+*.log
